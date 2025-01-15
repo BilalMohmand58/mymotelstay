@@ -46,7 +46,9 @@ const Services = () => {
                     {item.title && <h5 className="mb-4 f-18">{item.title}</h5>}
                     {item.description && (
                       <p className="text-muted mb-0">
-                        {Array.isArray(item.description) ? item.description.map((desc, i) => <li key={i}>{desc}</li>) : item.description}
+                        {Array.isArray(item.description)
+                          ? item.description.map((desc: string, i: number) => <li key={i}>{desc}</li>) // Explicitly typing 'desc' as string
+                          : item.description}
                       </p>
                     )}
                   </div>
