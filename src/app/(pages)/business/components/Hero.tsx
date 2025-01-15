@@ -1,0 +1,83 @@
+import IconifyIcon from '@/components/wrappers/IconifyIcon'
+import Image from 'next/image'
+import React from 'react'
+import google from '@/assets/images/google.png'
+import { Col, Container, Row } from 'react-bootstrap'
+
+const Hero = () => {
+  return (
+    <section className="bg-home-3" id="home">
+      <div className="bg-overlay" />
+      <div className="home-center">
+        <div className="home-desc-center">
+          <Container>
+            <Row className="justify-content-center align-items-center text-center">
+              <Col lg={8}>
+                <h5 className="text-primary"> Welcome to MyStayMotel</h5>
+                <h1 className="lh-base display-3 fw-semibold text-white">Hospitality That Cares</h1>
+                <p className="text-white-50 mb-4">
+                  we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly combine comfort,
+                  convenience, and affordability.
+                </p>
+                <div className="d-flex flex-wrap my-4 justify-content-center align-items-center gap-3">
+                  <Image src={google} alt="google" width={30} />
+                  <p className="f-18 mb-0 text-white">4.9</p>
+                  <ul className="p-0 m-0 fs-6 d-flex text-warning">
+                    <li>
+                      <IconifyIcon icon="tabler:star-filled" />
+                    </li>
+                    <li>
+                      <IconifyIcon icon="tabler:star-filled" />
+                    </li>
+                    <li>
+                      <IconifyIcon icon="tabler:star-filled" />
+                    </li>
+                    <li>
+                      <IconifyIcon icon="tabler:star-filled" />
+                    </li>
+                    <li>
+                      <IconifyIcon icon="tabler:star-half-filled" />
+                    </li>
+                  </ul>
+                  <p className="mb-0 text-white-50">1900+ Reviews</p>
+                  <div className="main-btn text-start ms-3">
+                    <a href="#" className="d-flex align-items-center">
+                      <div className="icon-bg d-flex bg-primary align-items-center justify-content-center rounded-circle">
+                        <span className="text-light">
+                          <IconifyIcon icon="tabler:player-play-filled" />
+                        </span>
+                      </div>
+                      <div className="d-block ms-3 ">
+                        <p className="text-white-50 m-0">Watch Testimonials</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div className="subscribe">
+                  <form>
+                    <Row className="justify-content-center align-items-center g-2">
+                      <Col lg={6}>
+                        <div>
+                          <input type="text" className="form-control rounded-pill" placeholder="Enter your E-mail address" />
+                        </div>
+                      </Col>
+                      <Col lg={3}>
+                        <div>
+                          <button type="submit" className="btn btn-primary">
+                            Subscribe Us
+                          </button>
+                        </div>
+                      </Col>
+                    </Row>
+                  </form>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Hero
