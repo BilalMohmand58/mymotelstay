@@ -15,7 +15,7 @@ import story from '@/assets/images/story.png'
 const OurStory = () => {
   const images = [avatar7, avatar6, avatar8, avatar9, avatar4, avatar2, avatar5]
   return (
-    <section className="  section" id="team">
+    <section className="  section" id="story">
       <Container>
         <Row className="justify-content-between g-3">
           <Col lg={6}>

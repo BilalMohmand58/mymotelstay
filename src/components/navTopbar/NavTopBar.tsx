@@ -46,37 +46,39 @@ const NavTopBar = ({ isDark }: { isDark?: boolean }) => {
               </NavLink>
             </NavItem>
             <NavItem as={'li'}>
-              <NavLink as={'a'} href="#features">
-                Features
+              <NavLink as={'a'} href="#about">
+                About Us
               </NavLink>
             </NavItem>
+            <NavItem as={'li'}>
+              <NavLink as={'a'} href="#story">
+                Our Story
+              </NavLink>
+            </NavItem>
+            
             <NavItem as={'li'}>
               <NavLink as={'a'} href="#services">
                 Services
               </NavLink>
             </NavItem>
-            <NavItem as={'li'}>
+            {/* <NavItem as={'li'}>
               <NavLink as={'a'} href="#testimonial">
                 Reviews
               </NavLink>
-            </NavItem>
-            <NavItem as={'li'}>
-              <NavLink as={'a'} href="#team">
-                Team
-              </NavLink>
-            </NavItem>
-            <NavItem as={'li'}>
+            </NavItem> */}
+            
+            {/* <NavItem as={'li'}>
               <NavLink as={'a'} href="#pricing">
                 Pricing
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem as={'li'}>
               <NavLink as={'a'} href="#contact">
                 Contact
               </NavLink>
             </NavItem>
           </Nav>
-          <button className="btn btn-sm btn-primary ms-4">Create Account</button>
+          <button className="btn btn-sm btn-primary ms-4">Subscribe</button>
         </NavbarCollapse>
       </Container>
     </Navbar>

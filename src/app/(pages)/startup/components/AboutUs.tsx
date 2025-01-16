@@ -7,10 +7,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const AboutUs = () => {
   return (
-    <section className="section pb-lg-0" id="about">
+    <section className=" section pb-lg-0" id="about">
       <Container>
         <Row className="align-items-center">
-          <Col lg={6}>
+          <Col lg={6} >
             <p className="d-flex align-items-center mb-4">
               <span className="icon bg-primary rounded d-flex justify-content-center align-items-center">
                 <IconifyIcon icon="tabler:info-circle" className="text-white f-18" />
@@ -30,7 +30,7 @@ const AboutUs = () => {
               welcoming atmosphere for all guests.
             </p>
             <div className="main-link">
-              <a href="" className="text-primary fs-6 fw-medium text-decoration-underline link-offset-3">
+              <a href="#contact" className="text-primary fs-6 fw-medium text-decoration-underline link-offset-3">
                 Learn More <IconifyIcon icon="tabler:arrow-narrow-right" className="align-middle" />
               </a>
             </div>
@@ -48,12 +48,19 @@ const AboutUs = () => {
             </div> */}
           </Col>
           <Col lg={6}>
-            <div className="img-part">
-              <Image src={about} alt="about" className="img-fluid" />
-            </div>
-          </Col>
+  <div className="img-part">
+    <Image
+      src={about}
+      alt="about"
+      className="img-fluid"
+      style={{ width: '90%', height: 'auto', marginLeft: '90px' }}
+    />
+  </div>
+</Col>
+
+
         </Row>
-      </Container>
+      </Container>                                                          
     </section>
   )
 }

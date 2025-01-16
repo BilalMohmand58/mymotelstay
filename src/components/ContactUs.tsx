@@ -29,7 +29,7 @@ const ContactUs = () => {
                   </span>
                   <p className="mb-0 fw-semibold f-16 text-white">Call Us Directly At</p>
                 </div>
-                <h5 className="text-white mt-4 mb-5">+ 713-707-2524</h5>
+                <h5 className="text-white mt-4 mb-5">(+92) 304-111-3309</h5>
                 <Button variant="light" size="sm" className="w-100">
                   Contact Us
                 </Button>
@@ -41,9 +41,9 @@ const ContactUs = () => {
                   <span className="icon-bg bg-light text-primary rounded d-flex justify-content-center align-items-center border border-primary">
                     <IconifyIcon icon="tabler:mail" className="fs-4" />
                   </span>
-                  <p className="mb-0 fw-semibold f-16 text-muted">Chat With Our Team</p>
-                </div>
-                <h5 className="text-dark mt-4 mb-5">marshal@rhyta.com</h5>
+                  <p className="mb-0 fw-semibold f-16 text-muted">Contact Us</p>
+                </div>  
+                <h5 className="text-dark mt-4 mb-5">info@mystaymotel.com</h5>
                 <Button variant="primary" size="sm" className="w-100">
                   Contact Us
                 </Button>
