@@ -10,7 +10,7 @@ import Image from 'next/image'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { teamData } from '../data'
 import Link from 'next/link'
-import story from '@/assets/images/story.png'
+import story from '@/assets/images/img2.jpg'
 
 const OurStory = () => {
   const images = [avatar7, avatar6, avatar8, avatar9, avatar4, avatar2, avatar5]
@@ -18,11 +18,17 @@ const OurStory = () => {
     <section className="  section" id="story">
       <Container>
         <Row className="justify-content-between g-3">
-          <Col lg={6}>
-            <div className="img-part">
-              <Image src={story} alt="our-story" className="img-fluid" />
-            </div>
-          </Col>
+        <Col lg={6}>
+  <div className="img-part">
+    <Image
+      src={story}
+      alt="our-story"
+      className="img-fluid"
+      style={{ maxHeight: '400px', objectFit: 'cover' }} // Adjust the maxHeight as needed
+    />
+  </div>
+</Col>
+
           <Col lg={5}>
             <p className="d-flex align-items-center mb-4">
               <span className="icon bg-primary rounded d-flex justify-content-center align-items-center">

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import businessWork from '@/assets/images/commitment.jpg'
+import businessWork from '@/assets/images/img3.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 
