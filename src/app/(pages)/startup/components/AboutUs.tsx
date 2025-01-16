@@ -18,15 +18,15 @@ const AboutUs = () => {
               <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
               <span className="badge bg-light border text-primary py-2 px-3 f-14">About Us </span>
             </p>
-            <h3 className="lh-base">Welcome to MyStayMotel</h3>
+            <h3 className="lh-base">Welcome to MyStay Motel</h3>
             <p className="text-muted">
-              At MyStayMotel, we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly
-              combine comfort, convenience, and affordability. As part of the Maidaan Group of Companies, MyStayMotel redefines hospitality by
+              At MyStay Motel, we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly
+              combine comfort, convenience, and affordability. As part of the Maidaan Group of Companies, MyStay Motel redefines hospitality by
               offering modern, budget-friendly accommodations tailored to meet the needs of travelers, professionals, and families.
             </p>
             <p>
               Our facilities integrate thoughtful design and functionality, providing everything from well-appointed rooms and co-working spaces to
-              dining options and recreational areas. Conveniently located in vibrant urban developments, MyStayMotel ensures accessibility and a
+              dining options and recreational areas. Conveniently located in vibrant urban developments, MyStay Motel ensures accessibility and a
               welcoming atmosphere for all guests.
             </p>
             <div className="main-link">

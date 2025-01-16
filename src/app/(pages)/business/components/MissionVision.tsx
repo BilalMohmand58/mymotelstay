@@ -14,18 +14,36 @@ const MissionVision = () => {
                   <IconifyIcon icon="tabler:key" className="text-white f-18" />
                 </span>
                 <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
-                <span className="badge bg-light border text-primary py-2 px-3 f-14">Our Mission & Vision</span>
+                <span className="badge bg-light border text-primary py-2 px-3 f-14">Why Choose Us</span>
               </p>
-              <h3>Why Choose MyStayMotel?</h3>
+              <h3>Why Choose MyStay Motel?</h3>
               <p className="text-muted">
                 Whether you’re a traveler exploring a new city, a professional seeking a workspace, or a family looking for a comfortable retreat,
-                MyStayMotel offers:
+                MyStay Motel offers:
               </p>
-              <ul className="list-styled">
-                <li>Modern amenities for today’s travelers.</li>
-                <li>Prime locations in vibrant mixed-use developments.</li>
-                <li>A team dedicated to exceptional service, ensuring every stay is memorable.</li>
-              </ul>
+              <div className="d-flex justify-content-center align-items-center h-100">
+  <ul className="list-unstyled ps-3 text-center">
+    <li className="mb-2 d-flex align-items-center justify-content-center">
+      <span className="me-2 text-primary">
+        <IconifyIcon icon="tabler:check" />
+      </span>
+      Modern amenities for today’s travelers.
+    </li>
+    <li className="mb-2 d-flex align-items-center justify-content-center">
+      <span className="me-2 text-primary">
+        <IconifyIcon icon="tabler:check" />
+      </span>
+      Prime locations in vibrant mixed-use developments.
+    </li>
+    <li className="d-flex align-items-center justify-content-center">
+      <span className="me-2 text-primary">
+        <IconifyIcon icon="tabler:check" />
+      </span>
+      A team dedicated to exceptional service, ensuring every stay is memorable.
+    </li>
+  </ul>
+</div>
+
             </div>
           </Col>
         </Row>

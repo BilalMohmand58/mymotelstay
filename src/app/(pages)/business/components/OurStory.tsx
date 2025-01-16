@@ -33,8 +33,8 @@ const OurStory = () => {
             </p>
             <h3 className="lh-base">Affordable Stays, Elevated Experiences</h3>
             <p className="text-muted mb-4">
-              MyStayMotel was established to meet the growing demand for quality, affordable accommodations in Pakistan’s dynamic and evolving urban
-              landscape. Leveraging the construction expertise of Victory Builders and the marketing strength of Maidaan Marketing, MyStayMotel merges
+              MyStay Motel was established to meet the growing demand for quality, affordable accommodations in Pakistan’s dynamic and evolving urban
+              landscape. Leveraging the construction expertise of Victory Construction and the marketing strength of Maidaan Marketing, MyStay Motel merges
               cutting-edge designs with guest-focused solutions.
             </p>
             <p>

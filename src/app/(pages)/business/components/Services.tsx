@@ -24,7 +24,7 @@ const Services = () => {
               </p>
               <h3>Feel at Home, Wherever You Go</h3>
               <p className="text-muted">
-                At MyStayMotel, we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly
+                At MyStay Motel, we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly
                 combine comfort, convenience, and affordability.{' '}
               </p>
             </div>

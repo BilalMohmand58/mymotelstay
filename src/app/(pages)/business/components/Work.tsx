@@ -17,7 +17,7 @@ const Work = () => {
               <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
               <span className="badge bg-light border text-primary py-2 px-3 f-14">Our Commitment </span>
             </p>
-            <h3 className="lh-base">At MyStayMotel, we are committed to</h3>
+            <h3 className="lh-base">At MyStay Motel, we are committed to</h3>
             <div className="d-flex gap-3 mb-3 mt-4">
               <span className="icon-bg bg-light text-primary rounded d-flex justify-content-center align-items-center flex-shrink-0">
                 <IconifyIcon icon="tabler:chess-king" className="fs-3" />

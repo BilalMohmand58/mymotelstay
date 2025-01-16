@@ -13,13 +13,13 @@ const Hero = () => {
           <Container>
             <Row className="justify-content-center align-items-center text-center">
               <Col lg={8}>
-                <h5 className="text-primary"> Welcome to MyStayMotel</h5>
+                <h5 className="text-primary"> Welcome to MyStay Motel</h5>
                 <h1 className="lh-base display-3 fw-semibold text-white">Hospitality That Cares</h1>
                 <p className="text-white-50 mb-4">
                   We believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly combine comfort,
                   convenience, and affordability.
                 </p>
-                <div className="d-flex flex-wrap my-4 justify-content-center align-items-center gap-3">
+                {/* <div className="d-flex flex-wrap my-4 justify-content-center align-items-center gap-3">
                   <Image src={google} alt="google" width={30} />
                   <p className="f-18 mb-0 text-white">4.9</p>
                   <ul className="p-0 m-0 fs-6 d-flex text-warning">
@@ -52,7 +52,7 @@ const Hero = () => {
                       </div>
                     </a>
                   </div>
-                </div>
+                </div> */}
                 <div className="subscribe">
                   <form>
                     <Row className="justify-content-center align-items-center g-2">
