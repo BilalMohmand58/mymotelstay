@@ -6,7 +6,7 @@ export const currentYear = new Date().getFullYear()
 
 export const developedByLink = ''
 
-export const developedBy = 'MarkeyThemes'
+export const developedBy = 'Maidaan Marketing'
 
 export const contactUs = ''
 
@@ -14,4 +14,4 @@ export const buyLink = ''
 
 export const basePath = ''
 
-export const DEFAULT_PAGE_TITLE = 'Skywave Next - IT Solution & Technology HTML Landing Template'
+export const DEFAULT_PAGE_TITLE = 'My Stay Motel - Hospitality That Cares'

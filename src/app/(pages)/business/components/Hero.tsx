@@ -16,7 +16,7 @@ const Hero = () => {
                 <h5 className="text-primary"> Welcome to MyStayMotel</h5>
                 <h1 className="lh-base display-3 fw-semibold text-white">Hospitality That Cares</h1>
                 <p className="text-white-50 mb-4">
-                  we believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly combine comfort,
+                  We believe hospitality is more than just providing a place to stay—it’s about creating experiences that seamlessly combine comfort,
                   convenience, and affordability.
                 </p>
                 <div className="d-flex flex-wrap my-4 justify-content-center align-items-center gap-3">
