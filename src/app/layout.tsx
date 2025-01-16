@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Skywave NextJs - IT Solution & Technology HTML Landing Template',
+    template: '%s | My Stay Motel - Hospitality That Cares',
     default: DEFAULT_PAGE_TITLE,
   },
   description: 'Premium Bootstrap 5 Landing Page Template',

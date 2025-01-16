@@ -9,26 +9,26 @@ const ActionBox = () => {
         <Row className="align-items-center g-4">
           <Col lg={3}>
             <div className="d-flex align-items-center gap-4">
-              <h2 className="fw-bold text-white mb-0"> 230 </h2>
-              <p className="mb-0 text-white f-16">Startups We Have Funded</p>
+              {/* <h2 className="fw-bold text-white mb-0">✔</h2> */}
+              <p className="mb-0 text-white f-16">Prime Locations: Conveniently located in urban developments for easy access.</p>
             </div>
           </Col>
           <Col lg={3}>
             <div className="d-flex align-items-center gap-4">
-              <h2 className="fw-bold text-white mb-0"> 7k </h2>
-              <p className="mb-0 text-white f-16">Funded From Skywave Community</p>
+              {/* <h2 className="fw-bold text-white mb-0">✔</h2> */}
+              <p className="mb-0 text-white f-16">Affordable Excellence: High-quality, budget-friendly accommodations.</p>
             </div>
           </Col>
           <Col lg={3}>
             <div className="d-flex align-items-center gap-4">
-              <h2 className="fw-bold text-white mb-0"> {currency}68B </h2>
-              <p className="mb-0 text-white f-16">Our Combined Valuation</p>
+              {/* <h2 className="fw-bold text-white mb-0">✔</h2> */}
+              <p className="mb-0 text-white f-16">Innovation: Modern amenities and practical features tailored for dynamic lifestyles.</p>
             </div>
           </Col>
           <Col lg={3}>
             <div className="d-flex align-items-center gap-4">
-              <h2 className="fw-bold text-white mb-0"> 10+ </h2>
-              <p className="mb-0 text-white f-16">Years Of Best Experience</p>
+              {/* <h2 className="fw-bold text-white mb-0">✔</h2> */}
+              <p className="mb-0 text-white f-16">Growth-Oriented: Scalable, sustainable, and focused on long-term success.</p>
             </div>
           </Col>
         </Row>

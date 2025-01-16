@@ -150,6 +150,18 @@ a.text-custom:hover {
   }
 }
 
+// Image Styling Margin Left 
+.img-lg-margin {
+  margin-left: 0; /* Default for smaller screens */
+}
+
+@media (min-width: 992px) {
+  .img-lg-margin {
+    margin-left: 90px;
+  }
+}
+
+
 .form-check-input {
   &:checked {
     background-color: $primary;

@@ -47,20 +47,22 @@ const AboutUs = () => {
               </div>
             </div> */}
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className="d-none d-lg-block">
   <div className="img-part">
     <Image
       src={about}
       alt="about"
-      className="img-fluid"
-      style={{ width: '90%', height: 'auto', marginLeft: '90px' }}
+      className="img-fluid img-lg-margin"
+      style={{ width: '90%', height: 'auto' }}
     />
   </div>
 </Col>
 
 
+
+
         </Row>
-      </Container>                                                          
+      </Container>
     </section>
   )
 }
