@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <section className="section bg-light" id="contact">
       <Container>
-        <Row className="justify-content-center text-center">
+        <Row className="justify-content-center text-center">                                                                                
           <Col lg={6}>
             <p className="d-flex align-items-center justify-content-center mb-4">
               <span className="icon bg-primary rounded d-flex justify-content-center align-items-center">
@@ -14,7 +14,7 @@ const ContactUs = () => {
               </span>
               <IconifyIcon icon="tabler:line-dashed" className="text-dark fs-5" />
               <span className="badge bg-light border text-primary py-2 px-3 f-14">Contact</span>
-            </p>
+            </p>               
             <h3 className="text-dark">Contact Us</h3>
             <p className="text-muted">We&apos;re here to help! Whether you have questions, need support, or want to explore how we can collaborate</p>
           </Col>

@@ -17,17 +17,17 @@ const OurStory = () => {
   return (
     <section className="  section" id="story">
       <Container>
-        <Row className="justify-content-between g-3">
-        <Col lg={6}>
-  <div className="img-part">
-    <Image
-      src={story}
-      alt="our-story"
-      className="img-fluid"
-      style={{ maxHeight: '400px', objectFit: 'cover' }} // Adjust the maxHeight as needed
-    />
-  </div>
-</Col>
+        <Row className="justify-content-between g-3">   
+          <Col lg={6}>  
+            <div className="img-part rounded"> 
+              <Image
+                src={story}
+                alt="our-story"
+                className="img-fluid rounded"
+                style={{ maxHeight: '400px', objectFit: 'cover' }} // Adjust the maxHeight as needed
+              />
+            </div>
+          </Col>
 
           <Col lg={5}>
             <p className="d-flex align-items-center mb-4">

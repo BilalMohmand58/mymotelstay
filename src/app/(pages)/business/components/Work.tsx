@@ -63,7 +63,7 @@ const Work = () => {
             </div> */}
           </Col>
           <Col lg={5}>
-            <div className="img-part-3 bg-primary p-2 rounded">
+            <div className="img-part-3 p-2 rounded">
               <Image src={businessWork} alt="work" className="img-fluid rounded" />
             </div>
           </Col>

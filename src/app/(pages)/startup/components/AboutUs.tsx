@@ -48,11 +48,11 @@ const AboutUs = () => {
             </div> */}
           </Col>
           <Col lg={6} className="d-none d-lg-block">
-  <div className="img-part">
+  <div className="img-part rounded">
     <Image
       src={about}
       alt="about"
-      className="img-fluid img-lg-margin"
+      className="img-fluid img-lg-margin rounded"
       style={{ width: '90%', height: 'auto' }}
     />
   </div>
